@@ -1,0 +1,27 @@
+{
+  "name": "haraka-plugin-s3-recipient-validator",
+  "description": "Validate your recipients through a static file hosted on AWS S3.",
+  "main": "index.js",
+  "keywords": [
+    "haraka",
+    "s3",
+    "validate",
+    "aws",
+    "recipient"
+  ],
+  "scripts": {},
+  "version": "0.1.0",
+  "engines": {
+    "node": ">= v8"
+  },
+  "repository": "github:nolotz/haraka-plugin-s3-recipient-validator",
+  "bugs": {
+    "url": "https://github.com/nolotz/haraka-plugin-s3-recipient-validator/issues"
+  },
+  "author": "Noah-Jerome Lotzer <noah.lotzer@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.427.0",
+    "promise-memoize": "^1.2.1"
+  }
+}
